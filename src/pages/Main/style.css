@@ -1,0 +1,377 @@
+#pageInitial {
+    height: 100vh;
+    width: 100%;
+}
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 130px;
+        background-color: #1E1F22;
+        align-items: center;
+        padding: 0px 99px;
+    }
+        #navigation {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+            gap: 124px;
+            cursor: pointer;
+        }
+            #wware {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 27px;
+                color: #EBE7D9;
+                font-weight: 600;
+                font-style: italic;
+            }
+            #wwdo {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 27px;
+                color: #EBE7D9;
+                font-style: italic;
+                font-weight: 600;
+            }
+                .linkHeader {
+                    text-decoration: none;
+                    color: #EBE7D9;
+                }
+        #logo {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 27px;
+            font-style: italic;
+            font-weight: 600;
+            color: #EBE7D9;
+        }
+            #logoBar {
+                color: #F55139;
+            }
+    #midpage {
+        height: 730px;
+        width: 100%;
+        background-image: url('https://s3.amazonaws.com/ceabs-sites/blog.ceabs.com.br/static/wp-content/uploads/2020/02/21140239/Gest%C3%A3o-de-frotas-de-caminh%C3%B5es-os-cuidados-necess%C3%A1rios.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        #brucebox {
+            display: flex;
+            height: 100%;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(30, 31, 34, 0.7);
+        }
+            #bruce {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 54px;
+                color: #FFFFFF;
+                font-style: italic;
+                font-weight: 600;
+            }
+        #formArea {
+            background-color: rgba(30, 31, 34, 0.7);
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+            #invitelabel {
+                font-family: 'Roboto', sans-serif;
+                font-size: 36px;
+                font-weight: 400;
+                color: #FFFFFF;
+                background-color: transparent;
+                width: 400px;
+                text-align: center;
+                margin-bottom: 45px;
+                font-style: italic;
+            }
+            #email {
+                width: 500px;
+                height: 42px;
+                outline: none;
+                border-style: solid;
+                border-color: #FFFFFF;
+                background-color: transparent;
+                padding: 0px 20px;
+                color: #FFFFFF;
+                font-size: 20px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-style: italic;
+            }
+                #email::placeholder {
+                    color: #FFFFFF;
+                    opacity: 60%;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: lighter;
+                    font-style: italic;
+                }
+                #email:-webkit-autofill,
+                #email:-webkit-autofill:hover,
+                #email:-webkit-autofill:focus,
+                #email:-webkit-autofill:active {
+                transition: background-color 5000s ease-in-out 0s;
+                -webkit-text-fill-color: #fff !important;
+            }
+            #sendbutton {
+                color: #000000;
+                background-color: #ffffff;
+                margin-top: 45px;
+                width: 100px;
+                height: 30px;
+                cursor: pointer;
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                border: none;
+            }
+    .navArrow {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: flex-end;
+    }
+        .linkArrow {
+            position: absolute;
+        }
+        .arrow {
+            color: #FFFFFF;
+            width: 70px;
+            height: 70px;
+            cursor: pointer;
+        }
+#pagewware {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #divArrow2 {
+        position: absolute;
+        margin-top: 860px;
+        }
+        #navArrow2 {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            align-items: flex-end;
+        }
+            #linkArrow2 {
+                position: absolute;
+            }
+            #arrow2 {
+                color: #FFFFFF;
+                width: 70px;
+                height: 70px;
+                cursor: pointer;
+            }
+    #pageboxwware {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    #imgwware {
+        height: 586px;
+        position: absolute;
+        margin-top: 195,5px;
+        margin-left: 350px;
+    }
+        #boxwware {
+            background-color: #EBE7D9;
+            margin-right: 450px;
+            height: 750px;
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+            #titlewware {
+                color: #1E1F22;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 53px;
+                padding-left: 50px;
+            }
+            #contentwware {
+                color: #1E1F22;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 25px;
+                margin-top: 15px;
+                width: 550px;
+                padding-left: 50px;
+            }
+#pagewwdo {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #pageboxwwdo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    #divSubButton {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        transform: translateX(-60px);
+    }
+    #linkSubButton {
+        position: absolute;
+    }
+        #subButton {
+            color: #000000;
+            background-color: #ffffff;
+            margin-top: 420px;
+            width: 120px;
+            height: 30px;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            border: none;
+            position: absolute;
+        }
+    #imgwwdo {
+        height: 586px;
+        position: absolute;
+        margin-top: 195,5px;
+        padding-right: 567px;
+    }
+        #boxwwdo {
+            background-color: #EBE7D9;
+            height: 750px;
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 642px;
+            align-items: flex-end;
+        }
+        #titlewwdo {
+            color: #1E1F22;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 53px;
+            padding-right: 50px;
+        }
+        #contentwwdo {
+            color: #1E1F22;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 25px;
+            margin-top: 15px;
+            width: 550px;
+            padding-right: 50px;
+            text-align: right;
+        }
+
+footer {
+    background-color: #EBE7D9;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    flex-direction: column;
+}
+    #auxdivFooter {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+        #bcFooter {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 27px;
+            font-weight: 600;
+            font-style: italic;
+            color: #000000;
+        }
+            #bcFooterBar {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 27px;
+                font-weight: 600;
+                font-style: italic;
+                color: #F55139;
+            }
+        #cityFooter {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-weight: 300;
+            font-style: italic;
+            color: #000000;
+            transform: translateX(-65px);
+        }
+        #iconsFooter {
+            display: flex;
+            justify-content: space-around;
+        }
+            .linkIcons {
+                text-decoration:none;
+                color: #000000;
+            }
+            #github {
+                width: 30px;
+                height: 30px;
+                margin-right: 5px;
+            }
+            #instagram {
+                width: 30px;
+                height: 30px;
+            }
+            #linkedin {
+                width: 31px;
+                height: 31px;
+                margin-left: 5px;
+            }
+    #contentFooter {
+        background-color: #EBE7D9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+        #developmentFooter {
+            font-size: 13px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+        }
+        #linkName {
+            text-decoration: none;
+            color: #000000;
+            cursor: pointer;
+        }
+        #allRightsReserved {
+            font-size: 13px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            padding-top: 1px;
+        }
+        .Toastify__toast {
+            font-family: 'Roboto', sans-serif;
+            border-radius: 0cm;
+        }
+    
+        .Toastify__toast-body {
+            padding: 0;
+            padding-left: 5px;
+        }
